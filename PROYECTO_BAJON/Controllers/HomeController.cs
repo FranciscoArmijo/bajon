@@ -26,5 +26,35 @@ namespace PROYECTO_BAJON.Controllers
 
             return View();
         }
+        public ActionResult Login()
+        {
+
+            return View("/Views/Home/login.cshtml");
+        }
+        public ActionResult Agregar_pedido()
+        {
+
+            return View("/Views/Home/agregar_pedido.cshtml");
+        }
+        public ActionResult Cliente_antiguo()
+        {
+
+            return View("/Views/Home/cliente_antiguo.cshtml");
+        }
+        public ActionResult Cliente_nuevo()
+        {
+
+            return View("/Views/Home/cliente_nuevo.cshtml");
+        }
+        public ActionResult Estado_pedido()
+        {
+
+            return View("/Views/Home/estado_pedido.cshtml");
+        }
+        public ActionResult Resumen_pedido()
+        {
+
+            return View("/Views/Home/resumen_pedido.cshtml");
+        }
     }
 }
