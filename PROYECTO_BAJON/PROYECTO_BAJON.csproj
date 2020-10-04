@@ -132,6 +132,24 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\estilo1.css" />
+    <Content Include="Content\img\aros_cebolla.png" />
+    <Content Include="Content\img\bebida_botella.png" />
+    <Content Include="Content\img\burrito.png" />
+    <Content Include="Content\img\cafe.png" />
+    <Content Include="Content\img\churros.png" />
+    <Content Include="Content\img\completo.png" />
+    <Content Include="Content\img\costillar.png" />
+    <Content Include="Content\img\cubo_pollo.png" />
+    <Content Include="Content\img\fajita.png" />
+    <Content Include="Content\img\hamburguesa.png" />
+    <Content Include="Content\img\hamburguesa_queso.png" />
+    <Content Include="Content\img\huevo_jamon.png" />
+    <Content Include="Content\img\longaniza.png" />
+    <Content Include="Content\img\nuggets.png" />
+    <Content Include="Content\img\papas_fritas.png" />
+    <Content Include="Content\img\pizza_familiar.png" />
+    <Content Include="Content\img\presa_pollo.png" />
+    <Content Include="Content\img\trozo_pizza.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -172,7 +190,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\img\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
