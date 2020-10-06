@@ -1,6 +1,7 @@
 ﻿body {
     background-color: #eeeeee;
 }
+
 .contenedor_pedido{
     display:flex;
     flex-direction:row;
@@ -15,10 +16,14 @@
     justify-content: center;
 }
 .total_pedido{
-    padding:10px;
+    position: fixed;
+    right:5%;
+    float:right;
+    padding:20px;
     width:20%;
     background-color:aliceblue;
     text-align:left;
+    border-radius:30px;
 }
 .tarjeta {
     margin: 20px;
@@ -35,8 +40,8 @@
         transition: all 0.3s ease;
     }
 .foto_producto{
-    width:200px;
-    height:200px;
+    width:150px;
+    height:150px;
 }
 .cantidad {
     display: flex;
@@ -46,4 +51,8 @@
 button{
     height:30px;
     width:20%;
+}
+.menu {
+    color: #979DA6;
+    height:50px;
 }
