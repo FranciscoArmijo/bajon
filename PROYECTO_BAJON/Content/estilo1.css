@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: #eeeeee;
+    background-color: #303030;
 }
 
 .contenedor_pedido{
@@ -8,7 +8,7 @@
 }
 .contenido {
     width: 80%;
-    background-color: #eeeeee;
+    background-color: #303030;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -29,14 +29,14 @@
     margin: 20px;
     align-items: center;
     text-align: center;
-    background-color: #eeeeee;
+    background-color: #303030;
     width: 200px;
     height: 310px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #00000027, -5px -5px 10px #ffffff;
 }
     .tarjeta:hover {
-        background-color: #E1E1E1;
+        background-color: #121212;
         transition: all 0.3s ease;
     }
 .foto_producto{
@@ -53,6 +53,17 @@ button{
     width:20%;
 }
 .menu {
-    color: #979DA6;
-    height:50px;
+    background-color: #FFE000;
+    text-decoration: none;
+    height: 100px;
 }
+    .menu ul {
+        padding: 0px;
+    }
+        .menu ul li {
+            display: inline;
+        }
+            .menu ul li a {
+                float: right;
+                padding: 15px;
+            }

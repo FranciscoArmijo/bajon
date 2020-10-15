@@ -7,15 +7,36 @@
     align-items: center;
 }
 
-form{
-
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    form > h3 {
+        color: #EA3606;
+        margin: 2px;
+        font-family: 'Archivo Black', sans-serif;
+    }
+input {
+    height: 40px;
+    width: 80%;
+    margin:2px;
+    border:hidden;
+}
+    input[type=submit] {
+        background-color: #30303050;
+        color:white;
+    }
+.boton:hover {
+    background-color: #303030;
+    transition: all 0.3s ease;
 }
 
 .tarjeta {
     background-color: #FFE000;
-    height: 200px;
-    width: 300px;
-    border-radius: 30px;
+    height: 350px;
+    width: 280px;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -34,7 +55,3 @@ form{
     align-items: center;
 }
 
-input[type=text] {
-    height: 40px;
-    width: 80%;
-}
