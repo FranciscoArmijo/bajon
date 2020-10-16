@@ -29,7 +29,7 @@ namespace PROYECTO_BAJON.Controllers
         public ActionResult Login()
         {
 
-            return View("/Views/Home/login.cshtml");
+            return View("/Views/Home/index.cshtml");
         }
         public ActionResult Agregar_pedido()
         {
